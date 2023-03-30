@@ -1,0 +1,41 @@
+{
+  "name": "@umatch/eslint-config",
+  "version": "1.0.0",
+  "description": "The eslint configuration used in Umatch's projects.",
+  "author": "Gabriel Okamoto",
+  "license": "ISC",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "main": "index.js",
+  "homepage": "https://github.com/umatch-oficial/eslint-config#readme",
+  "repository": "https://github.com/umatch-oficial/eslint-config.git",
+  "bugs": "https://github.com/umatch-oficial/eslint-config/issues",
+  "scripts": {
+    "push-publish": "git push --follow-tags && npm publish",
+    "release": "commit-and-tag-version"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "commit-and-tag-version": "^11.2.0",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.56.0",
+    "@typescript-eslint/parser": "^5.56.0",
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-import-resolver-exports": "1.0.0-beta.5",
+    "eslint-import-resolver-typescript": "^3.5.3",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.6"
+  }
+}
