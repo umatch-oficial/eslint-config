@@ -75,5 +75,6 @@ module.exports = {
     ],
     "prefer-const": "error",
     radix: "off",
+    yoda: "off",
   },
 };
