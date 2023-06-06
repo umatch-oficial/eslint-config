@@ -5,8 +5,8 @@ module.exports = {
     ecmaVersion: 13,
     sourceType: "module",
   },
-  extends: ["plugin:import/recommended", "plugin:prettier/recommended"],
-  plugins: ["@typescript-eslint", "prettier"],
+  extends: ["plugin:import/recommended", "prettier"],
+  plugins: ["@typescript-eslint"],
   settings: {
     "import/parsers": {
       "@typescript-eslint/parser": [".ts", ".tsx"],
@@ -25,7 +25,6 @@ module.exports = {
   },
   ignorePatterns: ["build", "dist", "lib", "node_modules", "*.lock"],
   rules: {
-    "prettier/prettier": "error",
     "@typescript-eslint/no-shadow": "error",
     "@typescript-eslint/no-unused-vars": [
       "warn",
