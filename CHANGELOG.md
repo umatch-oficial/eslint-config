@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.2.1](https://github.com/umatch-oficial/eslint-config/compare/v1.2.0...v1.2.1) (2023-06-16)
+
+
+### Bug Fixes
+
+* fix import plugin for typescript ([cbba221](https://github.com/umatch-oficial/eslint-config/commit/cbba221221a8880cee9d235c4364ffd5feac9fe8))
+
 ## [1.2.0](https://github.com/umatch-oficial/eslint-config/compare/v1.1.0...v1.2.0) (2023-06-06)
 
 
