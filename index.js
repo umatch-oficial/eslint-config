@@ -15,7 +15,7 @@ module.exports = {
       node: {},
       typescript: {
         alwaysTryTypes: true,
-        project: "*/tsconfig.json",
+        project: "*tsconfig.json",
       },
       exports: {
         // resolves "exports" field for the import plugin
