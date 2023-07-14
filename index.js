@@ -5,7 +5,11 @@ module.exports = {
     ecmaVersion: 13,
     sourceType: "module",
   },
-  extends: ["plugin:import/recommended", "prettier"],
+  extends: [
+    "plugin:@typescript-eslint/recommended-type-checked",
+    "plugin:import/recommended",
+    "prettier",
+  ],
   plugins: ["@typescript-eslint"],
   settings: {
     "import/parsers": {
@@ -54,11 +58,7 @@ module.exports = {
     "new-cap": ["error", { capIsNew: false }],
     "no-constant-condition": ["error", { checkLoops: false }],
     "no-nested-ternary": "off",
-    "no-restricted-syntax": [
-      "error",
-      "LabeledStatement",
-      "WithStatement",
-    ],
+    "no-restricted-syntax": ["error", "LabeledStatement", "WithStatement"],
     "padding-line-between-statements": [
       "warn",
       {
