@@ -5,11 +5,7 @@ module.exports = {
     ecmaVersion: 13,
     sourceType: "module",
   },
-  extends: [
-    "plugin:@typescript-eslint/recommended-type-checked",
-    "plugin:import/recommended",
-    "prettier",
-  ],
+  extends: ["plugin:import/recommended", "prettier"],
   plugins: ["@typescript-eslint"],
   settings: {
     "import/parsers": {
