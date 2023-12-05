@@ -1,6 +1,6 @@
 {
   "name": "@umatch/eslint-config",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "The eslint configuration used in Umatch's projects.",
   "author": "Gabriel Okamoto",
   "license": "ISC",

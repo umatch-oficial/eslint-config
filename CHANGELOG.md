@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.4.1](https://github.com/umatch-oficial/eslint-config/compare/v1.4.0...v1.4.1) (2023-12-05)
+
+
+### Bug Fixes
+
+* revert prettier version ([ae29844](https://github.com/umatch-oficial/eslint-config/commit/ae29844efe140e94dcf7f796baf8c33f19ee9d49))
+
 ## [1.4.0](https://github.com/umatch-oficial/eslint-config/compare/v1.3.0...v1.4.0) (2023-12-05)
 
 
