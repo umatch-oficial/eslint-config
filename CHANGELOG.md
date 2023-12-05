@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.3.0](https://github.com/umatch-oficial/eslint-config/compare/v1.2.2...v1.3.0) (2023-12-05)
+
+
+### Features
+
+* extend config 'plugin:@typescript-eslint/recommended-type-checked' ([84d9547](https://github.com/umatch-oficial/eslint-config/commit/84d954710866bd71f66469aeca05e0436116b2d5))
+
 ## [1.2.2](https://github.com/umatch-oficial/eslint-config/compare/v1.2.1...v1.2.2) (2023-07-15)
 
 ## [1.2.1](https://github.com/umatch-oficial/eslint-config/compare/v1.2.0...v1.2.1) (2023-06-16)
