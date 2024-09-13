@@ -1,25 +1,25 @@
 module.exports = {
   env: { es6: true, node: true, jest: true },
-  parser: "@typescript-eslint/parser",
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 13,
-    sourceType: "module",
+    sourceType: 'module',
   },
   extends: [
-    "plugin:import/recommended",
-    "prettier",
-    "plugin:no-date-equality-check/recommended",
+    'plugin:import/recommended',
+    'prettier',
+    'plugin:no-date-equality-check/recommended',
   ],
-  plugins: ["@typescript-eslint"],
+  plugins: ['@typescript-eslint'],
   settings: {
-    "import/parsers": {
-      "@typescript-eslint/parser": [".ts", ".tsx"],
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx'],
     },
-    "import/resolver": {
+    'import/resolver': {
       node: {},
       typescript: {
         alwaysTryTypes: true,
-        project: "*tsconfig.json",
+        project: '*tsconfig.json',
       },
       exports: {
         // resolves "exports" field for the import plugin
@@ -27,53 +27,53 @@ module.exports = {
       },
     },
   },
-  ignorePatterns: ["build", "dist", "lib", "node_modules", "*.lock"],
+  ignorePatterns: ['build', 'dist', 'lib', 'node_modules', '*.lock'],
   rules: {
-    "@typescript-eslint/no-shadow": "error",
-    "@typescript-eslint/no-unused-vars": [
-      "warn",
+    '@typescript-eslint/no-shadow': 'error',
+    '@typescript-eslint/no-unused-vars': [
+      'warn',
       {
-        args: "after-used",
-        argsIgnorePattern: "^_",
-        destructuredArrayIgnorePattern: "^_",
-        varsIgnorePattern: "^_",
+        args: 'after-used',
+        argsIgnorePattern: '^_',
+        destructuredArrayIgnorePattern: '^_',
+        varsIgnorePattern: '^_',
       },
     ],
-    "@typescript-eslint/no-use-before-define": ["error", { functions: false }],
-    complexity: "error",
-    eqeqeq: ["error", "smart"],
-    "import/order": [
-      "warn",
+    '@typescript-eslint/no-use-before-define': ['error', { functions: false }],
+    complexity: 'error',
+    eqeqeq: ['error', 'smart'],
+    'import/order': [
+      'warn',
       {
-        alphabetize: { order: "asc", caseInsensitive: true },
+        alphabetize: { order: 'asc', caseInsensitive: true },
         groups: [
-          ["builtin", "external", "unknown"],
-          ["internal", "parent", "sibling", "index"],
-          ["object", "type"],
+          ['builtin', 'external', 'unknown'],
+          ['internal', 'parent', 'sibling', 'index'],
+          ['object', 'type'],
         ],
-        "newlines-between": "always",
+        'newlines-between': 'always',
       },
     ],
-    "max-classes-per-file": ["error", 1],
-    "new-cap": ["error", { capIsNew: false }],
-    "no-constant-condition": ["error", { checkLoops: false }],
-    "no-nested-ternary": "off",
-    "no-restricted-syntax": ["error", "LabeledStatement", "WithStatement"],
-    "padding-line-between-statements": [
-      "warn",
+    'max-classes-per-file': ['error', 1],
+    'new-cap': ['error', { capIsNew: false }],
+    'no-constant-condition': ['error', { checkLoops: false }],
+    'no-nested-ternary': 'off',
+    'no-restricted-syntax': ['error', 'LabeledStatement', 'WithStatement'],
+    'padding-line-between-statements': [
+      'warn',
       {
-        blankLine: "always",
-        prev: "*",
-        next: ["const", "let", "var"],
+        blankLine: 'always',
+        prev: '*',
+        next: ['const', 'let', 'var'],
       },
       {
-        blankLine: "any",
-        prev: ["const", "let", "var"],
-        next: ["const", "let", "var"],
+        blankLine: 'any',
+        prev: ['const', 'let', 'var'],
+        next: ['const', 'let', 'var'],
       },
     ],
-    "prefer-const": "error",
-    radix: "off",
-    yoda: "off",
+    'prefer-const': 'error',
+    radix: 'off',
+    yoda: 'off',
   },
 };
