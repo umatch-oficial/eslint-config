@@ -32,6 +32,7 @@
     "eslint-import-resolver-exports": "1.0.0-beta.5",
     "eslint-import-resolver-typescript": "^3.6.3",
     "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-no-date-equality-check": "^1.1.0",
     "prettier": "^3.3.0",
     "typescript": "^5.6.2"
   },
@@ -43,6 +44,7 @@
     "eslint-import-resolver-exports": "1.0.0-beta.5",
     "eslint-import-resolver-typescript": "^3.6.3",
     "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-no-date-equality-check": "^1.1.0",
     "prettier": "^3.3.0",
     "typescript": "^5.6.2"
   }

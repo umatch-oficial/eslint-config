@@ -5,7 +5,11 @@ module.exports = {
     ecmaVersion: 13,
     sourceType: "module",
   },
-  extends: ["plugin:import/recommended", "prettier"],
+  extends: [
+    "plugin:import/recommended",
+    "prettier",
+    "plugin:no-date-equality-check/recommended",
+  ],
   plugins: ["@typescript-eslint"],
   settings: {
     "import/parsers": {
